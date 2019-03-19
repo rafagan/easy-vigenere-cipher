@@ -1,4 +1,17 @@
-#include "utils.h"
+/******************************************************************************
+*
+* COPYRIGHT Ráfagan Sebástian de Abreu ALL RIGHTS RESERVED.
+*
+* This software can be copied, stored, distributed for any purpose. Just let the author know about it.
+*
+* This file was made available on https://github.com/rafagan and it is free
+* to be restributed or used under Creative Commons license 2.5 br:
+* http://creativecommons.org/licenses/by-sa/2.5/br/
+*
+*/
+
+
+#include "cipher.h"
 
 #include <iostream>
 #include <sstream>
