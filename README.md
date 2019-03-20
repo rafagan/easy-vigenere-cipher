@@ -5,7 +5,7 @@ Usage example:
 ```C++
 constexpr auto text = "e+QCE)K<gjd{}-?D[}63~a#p$S-#4<%2%j)XV~8m_[]P;Vd)t7t@:M6;S";
 constexpr auto key = "jD7yeKQ,]udY$V5&Zyp%6MD4%^a-$_j}D>LdzqrYj['At+bv</cR:^-g8n";
-constexpr auto salt = -1; // Salt support to randomize even more the encryption
+constexpr auto salt = 1; // Salt support to randomize even more the encryption
 auto encrypted = encrypt(text, key, salt);
 auto decrypted = decrypt(encrypted, key, salt);
 
